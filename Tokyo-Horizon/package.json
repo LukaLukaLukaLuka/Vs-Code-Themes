@@ -1,0 +1,32 @@
+{
+  "name": "tokyo-horizon",
+  "displayName": "Tokyo Horizon",
+  "description": "A cozy purple-ish theme for your vscode.",
+  "version": "0.0.1",
+  "publisher": "LukaL",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "repository": "https://www.github.com/LukaLukaLukaLuka/Tokyo-Horizon",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokyo Horizon-color-theme.json"
+      },
+      {
+        "label": "Tokyo Horizon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokyo Horizon-color-theme-dark.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Tokyo Horizon"
+    }
+  }
+}

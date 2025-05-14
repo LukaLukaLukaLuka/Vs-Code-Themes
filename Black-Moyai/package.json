@@ -1,0 +1,27 @@
+{
+  "name": "Black-Moayi",
+  "displayName": "Black Moayi",
+  "description": "A black theme for night owl's and moayis.",
+  "version": "0.0.1",
+  "publisher": "LukaL",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "repository": "https://www.github.com/LukaLukaLukaLuka/black moayi",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "black moayi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Black Moayi-color-theme.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "black moayi"
+    }
+  }
+}
